@@ -1,0 +1,66 @@
+Welcome to the Quiz Score Frequency Analyzer, by Charlie Ang
+
+Enter a list of pairs of values: "QuizScoreValue ScoreCount".
+Example: 35 5 indicates 5 more students received a score of 35.
+Enter "-1 0 " when finsihed:
+35 5
+50 2
+41 6
+42 3
+48 4
+42 2
+-1 0
+
+Score: Frequency
+   35:    5
+   36:    0
+   37:    0
+   38:    0
+   39:    0
+   40:    0
+   41:    6
+   42:    5
+   43:    0
+   44:    0
+   45:    0
+   46:    0
+   47:    0
+   48:    4
+   49:    0
+   50:    2
+
+The smallest score value is 35
+The largest score value is 50
+The largest frequency count is 6
+
+Score: Frequency Vertical Bar Chart
+
+   35: *****
+   36:
+   37:
+   38:
+   39:
+   40:
+   41: ******
+   42: *****
+   43:
+   44:
+   45:
+   46:
+   47:
+   48: ****
+   49:
+   50: **
+
+Frequency: Score Horizontal Bar Chart
+
+    ^   6:                     *
+    ^   5:   *                 *  *
+    ^   4:   *                 *  *                 *
+    ^   3:   *                 *  *                 *
+    ^   2:   *                 *  *                 *     *
+    ^   1:   *                 *  *                 *     *
+---------: --^--^--^--^--^--^--^--^--^--^--^--^--^--^--^--^
+    Score:  35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50
+Press any key to continue . . .
+
